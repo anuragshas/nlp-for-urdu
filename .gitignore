@@ -1,0 +1,13 @@
+.ipynb_checkpoints/*
+classification/.ipynb_checkpoints/*
+classification/models/*
+classification/tmp/*
+classification/Urdu_Classification_Data_News_Headlines.csv
+datasets-preparation/.ipynb_checkpoints/*
+datasets-preparation/all_Urdu_wikipedia_links.pkl
+language-model/.ipynb_checkpoints/*
+language-model/UrduDataset/*
+language-model/UrduWikipediaArticles/*
+tokenizer/.ipynb_checkpoints/*
+tokenizer/urdu_lm.model
+tokenizer/urdu_lm.vocab
