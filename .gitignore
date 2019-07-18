@@ -11,3 +11,5 @@ language-model/UrduWikipediaArticles/*
 tokenizer/.ipynb_checkpoints/*
 tokenizer/urdu_lm.model
 tokenizer/urdu_lm.vocab
+datasets-preparation/UrduWikipediaArticles/
+.idea/
