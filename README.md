@@ -43,12 +43,14 @@ The models trained here have been used in [Natural Language Toolkit for Indic La
 
 ## Pretrained Language Model
 
-Download pretrained Language Model from [here](https://drive.google.com/open?id=19LLOys3H4h9ElHmdc6mt5ylZUw5dQedB)
+Download pretrained ULMFiT LM from [here](https://drive.google.com/open?id=19LLOys3H4h9ElHmdc6mt5ylZUw5dQedB)
+
+Download pretrained TransformerXL LM from [here](https://drive.google.com/open?id=13Iw63A9HoYEcE_g6BlK8j63OgZ7zaFjx)
 
 
 ## Classifier
 
-Download classifier from [here](https://drive.google.com/open?id=1MOE8GWK6RUFmN2_IhLihrugU6NOLshr2)
+Download classifier from [here](https://drive.google.com/open?id=1DSTRQOiFcOYPsakd41h8ZQYH24KTy9gC)
 
 
 ## Tokenizer
