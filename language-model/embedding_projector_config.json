@@ -1,7 +1,7 @@
 {
   "embeddings": [
     {
-      "tensorName": "Urdu Embedding Vectors",
+      "tensorName": "Urdu Embedding Vectors - ULMFiT",
       "tensorShape": [
         30000,
         400

@@ -1,27 +1,45 @@
 # NLP for Urdu
 
-This repository contains State of the Art Tokenizer, Language model and Classifier for Urdu, which is one of the Official Languages of India and spoken in various states of India.
+This repository contains State of the Art Language models and Classifier for Urdu,
+ spoken mainly in Pakistan and India, and also in Nepal, Bangladesh and several other countries.
 
+The models trained here have been used in [Natural Language Toolkit for Indic Languages
+ (iNLTK)](https://github.com/goru001/inltk)
+ 
 ## Dataset
 
-* Download [Urdu Wikipedia Articles Dataset](https://drive.google.com/open?id=15jd1YuQ8kZW3KVDxjhm6kTH7RCyHiPqp) (153,814 articles) which I scraped, cleaned and
-used to train the language model
+#### Created as part of this project
 
-* Download [Urdu News classification Dataset](https://drive.google.com/open?id=105V5hN8eouTJWYD4ugsB7M_pm6kDZ05u) which I scraped and used to train 
-the classifier
+1. [Urdu Wikipedia Articles](https://www.kaggle.com/disisbig/urdu-wikipedia-articles)
+
+2. [Urdu News Dataset](https://www.kaggle.com/disisbig/urdu-news-dataset)
+
 
 ## Results
 
-#### Language Model
+#### Language Model Perplexity
 
-`on 30% validation set`
+| Architecture/Dataset | Urdu Wikipedia Articles |
+|:--------:|:----:|
+|   ULMFiT  |  13.19  |
+|  TransformerXL |  12.55  |
 
-* Perplexity of language model: ~13
+#### Classification Metrics
 
-#### Classifier
+##### ULMFiT
 
-* Accuracy of classification model: ~94%
-* Kappa score of classification model: ~90
+| Dataset | Accuracy | Kappa Score |
+|:--------:|:----:|:----:|
+| Urdu News Dataset |  95.28  |  91.58  |
+
+#### Visualizations
+ 
+##### Embedding Space
+
+| Architecture | Visualization |
+|:--------:|:----:|
+| ULMFiT | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/anuragshas/nlp-for-urdu/master/language-model/embedding_projector_config.json) |
+| TransformerXL | [Embeddings projection](https://projector.tensorflow.org/?config=https://raw.githubusercontent.com/anuragshas/nlp-for-urdu/master/language-model/embedding_projector_transformer_config.json)  |
 
 ## Pretrained Language Model
 
